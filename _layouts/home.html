@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="main">
+            <div class="four">
+              <img src="{{site.baseurl}}/assets/img/imad.png">
+            </div>
+            <div class="eight">
+              Imad Berrouyne is a postdoctoral researcher in the Interdisciplinary Centre for Security, Reliability and Trust (SnT) at the University of Luxembourg. He received a double Ph.D. degree from the Université du Québec à Chicoutimi and Institut Mines Télécom Atlantique. He developed a software engineering methodology based on Model-Driven Engineering (MDE) to overcome the heterogeneity challenges in the IoT. Before his Ph.D., Imad obtained a Bachelor degree in computer science and a Master degree in computer networking from the Université Claude Bernard Lyon 1 (Lyon, France).
+            </div>
+            <div class="four">
+              Imad Berrouyne
+            </div>
+        </div>
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
