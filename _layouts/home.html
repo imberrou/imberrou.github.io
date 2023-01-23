@@ -19,6 +19,14 @@
         </div>
         {{ content }}
       </div>
+      <ul>
+    {% for post in site.posts %}
+    <li>
+      <time datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate>{{ post.date | date_to_string }}</time>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
     </main>
 
     {%- include footer.html -%}
