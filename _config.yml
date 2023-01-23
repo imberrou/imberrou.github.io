@@ -27,7 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: imberrou
 github_username:  imberrou
 content:
-  description:  Imad Berrouyne is a postdoctoral researcher in the [Interdisciplinary Centre for Security, Reliability and Trust (SnT)](https://wwwfr.uni.lu/snt) at the [University of Luxembourg](https://wwwfr.uni.lu). He received a double Ph.D. degree from the [Université du Québec à Chicoutimi](https://www.uqac.ca/) and [Institut Mines Télécom Atlantique](https://www.imt-atlantique.fr/). He developed a software engineering methodology based on Model-Driven Engineering (MDE) to overcome the heterogeneity challenges in the IoT. Before his Ph.D., Imad obtained a Bachelor degree in computer science and a Master degree in computer networking from the [Université Claude Bernard Lyon 1](https://www.univ-lyon1.fr/) (Lyon, France).
+  description:  "Imad Berrouyne is a postdoctoral researcher in the [Interdisciplinary Centre for Security, Reliability and Trust (SnT)](https://wwwfr.uni.lu/snt) at the [University of Luxembourg](https://wwwfr.uni.lu). He received a double Ph.D. degree from the [Université du Québec à Chicoutimi](https://www.uqac.ca/) and [Institut Mines Télécom Atlantique](https://www.imt-atlantique.fr/). He developed a software engineering methodology based on Model-Driven Engineering (MDE) to overcome the heterogeneity challenges in the IoT. Before his Ph.D., Imad obtained a Bachelor degree in computer science and a Master degree in computer networking from the [Université Claude Bernard Lyon 1](https://www.univ-lyon1.fr/) (Lyon, France)."
 
 # Build settings
 theme: minima
