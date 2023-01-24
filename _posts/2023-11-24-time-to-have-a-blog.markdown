@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "It's time to have a blog"
+title:  "It's time to start a blog"
 date:   2023-01-10 12:27:53 +0100
 categories: life
 ---
