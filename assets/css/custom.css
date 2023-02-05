@@ -6,3 +6,7 @@
 .dottedLink {
 	border-bottom: 1px dotted;
 }
+
+.page-content {
+    padding: 10px 0;
+}
