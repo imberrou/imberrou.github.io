@@ -7,6 +7,10 @@
 	border-bottom: 1px dotted;
 }
 
+.dottedLink :hover{
+	text-decoration: none;
+}
+
 .page-content {
     padding: 10px 0;
 }
