@@ -47,11 +47,11 @@
             {% for post in site.posts %}
             <li>
               <time datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate>{{ post.date | date_to_string }}</time> - 
-              <a href="{{ post.url }}">{{ post.title }}</a>
+              <a class="dottedLink" href="{{ post.url }}">{{ post.title }}</a>
             </li>
             {% endfor %}
           </ul>
-          <a class="dottedLink" style="float: right;" href="/feed.xml"><svg class="svg-icon orange">
+          <a style="float: right;" href="/feed.xml"><svg class="svg-icon orange">
             <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
           </svg><span>Subscribe</span></a>
         </nav>
